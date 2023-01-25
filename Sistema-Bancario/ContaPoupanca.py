@@ -1,3 +1,6 @@
+from SistemaBancario import Conta
+
+
 class ContaPoupanca(Conta):
     def __init__(self, numero: str):
         super().__init__(numero)
