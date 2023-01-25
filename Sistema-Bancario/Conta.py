@@ -1,3 +1,6 @@
+from SistemaBancario import Conta
+
+
 class Conta:
     def __init__(self, numero: str):
         self.__numero = numero
