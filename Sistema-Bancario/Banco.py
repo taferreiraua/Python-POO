@@ -1,3 +1,6 @@
+from SistemaBancario import Conta
+
+
 class Banco:
     def __init__(self):
         self.contas = list()
