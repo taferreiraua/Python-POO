@@ -1,6 +1,3 @@
-from SistemaBancario import Conta
-
-
 class Conta:
     def __init__(self, numero: str):
         self.__numero = numero
@@ -23,9 +20,6 @@ class Conta:
         
     def set_saldo(self, saldo: float):
         self.__saldo = saldo
-        
-    def render_juros(self, numero: str, taxa: float):
-        self.__saldo = self.__saldo * taxa
         
         
 # Criando uma conta
